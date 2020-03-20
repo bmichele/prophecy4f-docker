@@ -1,0 +1,59 @@
+outputfile=''                   ! name of outputfile
+nevents=10000                   ! nevents: number of weighted events
+nunwevents=0                    ! nunwevents: number of unweighted events
+
+model=0                         ! model: 0=SM, 1=SESM, 2=THDM, 4=SM4
+
+contrib=1                       ! contrib: 1=best 2=IBA 3=Born
+qqcd=1                          ! qqcd: 0=EW 1=EW+QCD 2=QCD corrections incl.
+
+qsoftcoll = 1                   ! qsoftcoll: 1=subtraction, 2=slicing
+
+channel= e anti-e mu anti-mu    ! final state
+
+qrecomb=1                       ! qrecomb: 0=no recomb., 1=photon recomb.
+invrecomb=5d0                   ! recombination condition (for qrecomb=1)
+
+qrecombcolle=0                  ! 1=recomb. electrons and photons inside the slicing cone, 0=do not recomb.
+
+mh       = 125d0                ! Higgs boson mass in the SM or SM4
+alphas   = 0.118d0              ! strong coupling constant
+gf       = 1.1663787d-5         ! Fermi constant
+mz       = 91.1876d0            ! on-shell Z-boson mass
+mw       = 80.385d0             ! on-shell W-boson mass
+gammaz   = 2.4952d0             ! on-shell Z-boson width 
+gammaw   = 2.085d0              ! on-shell W-boson width 
+me       = 0.510998928d-3       ! electron mass
+mmu      = 105.6583715d-3       ! muon mass
+mtau     = 1.77682d0            ! tau mass
+md       = 0.100d0              ! d-quark mass
+mu       = 0.100d0              ! u-quark mass
+ms       = 0.100d0              ! s-quark mass
+mc       = 1.51d0               ! c-quark mass
+mb       = 4.92d0               ! b-quark mass
+mt       = 172.5d0              ! t-quark mass
+
+qsm4=1                          ! 1,2 NLO,NLO+improvements, only relev. for SM4 (model=4)
+ml4      = 600d0                ! mass of  l in 4th fermion generation
+mn4      = 600d0                ! mass of nu in 4th fermion generation
+md4      = 600d0                ! mass of  d in 4th fermion generation
+mu4      = 650d0                ! mass of  u in 4th fermion generation
+
+randomseed = -1                 ! use random numbers of version 2.0
+
+hboson=h0                       ! Higgs boson in the initial state (irrelevant for SM)
+
+modeltype=1                     ! modeltype: variant of the model in the THDM
+
+renscheme = 5                   ! renormalization scheme
+
+mrenbsm1 = 125.1d0              ! start renormalization scale for SESM MSbar parameters
+mrenbsm2 = 125.1d0              !   end renormalization scale for SESM MSbar parameters
+sa       = 0.29d0               ! sin(alpha) in the SESM or THDM
+tb       = 2d0                  ! tan(beta) in the THDM
+mh0      = 125.1d0              ! mass of the light Higgs boson in the SESM or THDM
+mhh      = 200d0                ! mass of the heavy Higgs boson in the SESM or THDM
+l12      = 0.07d0               ! coupling lambda12 in the SESM
+ma0      = 460d0                ! mass of the CP-odd Higgs boson in the THDM
+mhp      = 460d0                ! mass of the charged Higgs boson in the THDM
+lam5     = -1.9d0               ! coupling lambda5 in the THDM

@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  ubuntu:
+    build:
+      context: .
+    image: prophecy4f
+    tty: true
+    volumes:
+#      - ./Prophecy4f-3.0:/Prophecy4f-3.0
+      - ./histograms:/Prophecy4f-3.0/HISTOGRAMS
+      - ./histunweighted:/Prophecy4f-3.0/HISTUNWEIGHTED
+      - ./unweightedevents:/Prophecy4f-3.0/UNWEIGHTEDEVENTS
+      - ./inputdir:/Prophecy4f-3.0/inputdir
