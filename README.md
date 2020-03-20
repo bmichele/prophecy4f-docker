@@ -2,7 +2,7 @@
 
 ## Prophecy4f Docker
 
-To test Prophecy4f, fist install it with docker:
+To test Prophecy4f, fist install it with [Docker](https://www.docker.com):
 
 ```
 cd docker
