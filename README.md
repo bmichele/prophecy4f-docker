@@ -28,7 +28,7 @@ docker-compose up -d
 In order to run Prophecy4f, place your input file in the folder `inputdir`, then run Prophecy inside the virtual container by
 
 ```
-docker exec -it prophecy4f-docker_ubuntu_1 bash
+docker exec -it p4f bash
 ./Prophecy4f < inputdir/testinput
 ```
 
