@@ -1,5 +1,9 @@
 # README
 
+## Dependencies
+
+If you don't have it, install Docker following the installation process described in the [documentation](https://docs.docker.com/install/)
+
 ## Prophecy4f Docker
 
 To test Prophecy4f, fist install it with [Docker](https://www.docker.com):
